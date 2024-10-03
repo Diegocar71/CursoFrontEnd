@@ -1,0 +1,68 @@
+
+.video {
+    border: 5px solid black;
+    border-radius: 10px; 
+    height: 400px;
+    width: 700px
+}
+
+.centro {
+    text-align: center;
+    display: block; 
+    margin: auto;
+}
+
+.mi-lista {
+  list-style: none;
+  text-decoration: none;
+  color: red;
+}
+
+.nav-class {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    display: flex;          
+    justify-content: space-around; 
+}
+
+.nav-class li {
+    margin-right: 20px;    
+}
+
+.nav-class li:last-child {
+    margin-right: 0;        
+}
+
+.nav-class a {
+    text-decoration: none; 
+    color: #000;            
+    padding: 10px; 
+    font-size: 25px;
+    font-weight: bold;           
+}
+
+.nav-class a:hover {
+    color: #007BFF;         
+}
+
+body {
+    background-image: url('water-1867636_1920.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    height: 100vh;             
+    margin: 0;
+    font-family: 'Permanent Marker';
+}
+
+hr {
+    border: none; 
+    border-top: 4px 
+    solid blue;
+}
+
+footer {
+    text-align: center;
+}
+
